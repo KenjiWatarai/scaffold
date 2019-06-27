@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+scaffoldを作った時の基本的なcontrollerやroutesのメモ
+```bash
+bundle exec rails generate scaffold user name:string age:integer
+```
 
-Things you may want to cover:
 
-* Ruby version
+[users_controller.rb](https://github.com/KenjiWatarai/scaffold/blob/master/app/controllers/users_controller.rb)
 
-* System dependencies
+[user.rb](https://github.com/KenjiWatarai/scaffold/blob/master/app/models/user.rb)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[xxxxxxxxxxxxxx_create_users.rb](https://github.com/KenjiWatarai/scaffold/blob/master/db/migrate/20190627011442_create_users.rb)
