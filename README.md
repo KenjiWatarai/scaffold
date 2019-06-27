@@ -10,4 +10,6 @@ bundle exec rails generate scaffold user name:string age:integer
 
 [user.rb](https://github.com/KenjiWatarai/scaffold/blob/master/app/models/user.rb)
 
+[views/users](https://github.com/KenjiWatarai/scaffold/tree/master/app/views/users)
+
 [xxxxxxxxxxxxxx_create_users.rb](https://github.com/KenjiWatarai/scaffold/blob/master/db/migrate/20190627011442_create_users.rb)
